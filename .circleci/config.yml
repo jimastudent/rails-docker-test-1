@@ -25,7 +25,7 @@ jobs:
       BUNDLE_RETRY: "3"
       APP_DATABASE_HOST: "127.0.0.1"
       RAILS_ENV: test
-    working_directory: ~/rails-docker-test-1/src
+    working_directory: ~/rails-docker-test-1/blog
     steps:
       - checkout:
           path: ~/rails-docker-test-1
