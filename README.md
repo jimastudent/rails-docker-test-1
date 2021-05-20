@@ -27,3 +27,5 @@ docker-compose run web db:create
 [change permission]
 sudo chown -R ec2-user:ec2-user blog/
 sudo chown -R ec2-user:ec2-user src/
+
+aaa
