@@ -8,7 +8,7 @@ jobs:
       - image: circleci/ruby:2.7
     working_directory: ~/rails-docker-test-1/blog
     steps:
-      - checkout
+      - checkout:
           path: ~/rails-docker-test-1
       - ruby/install-deps
   
